@@ -54,6 +54,8 @@ main {
 .card-container {
     display: flex;
     column-gap: 0.5rem;
+    row-gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -97,4 +99,12 @@ main {
 .price-decoration {
     display: inline-block;
     text-decoration: line-through;
+}
+
+.heart-container {
+    background-color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    padding: 1rem;
 }
