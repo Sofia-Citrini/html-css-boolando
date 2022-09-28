@@ -133,6 +133,10 @@ h3, h5 {
     padding: 1rem;
 }
 
+.heart-container:hover {
+    color: var(--color-red);
+}
+
 .row {
     display: flex;
     justify-content: space-between;
