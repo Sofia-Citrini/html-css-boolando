@@ -1,3 +1,7 @@
+:root {
+    --color-red: rgb(255, 0, 0);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +21,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+main {
+    padding: 3rem;
 }
 
 .container {
@@ -41,4 +49,52 @@ nav {
 
 .logo-img img {
     width: 100%;
+}
+
+.card-container {
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.card {
+    flex-grow: 1;
+    position: relative;
+}
+
+.model-img{
+    width: 300px;
+}
+
+.model-img img {
+    width: 100%;
+}
+
+.discount-container {
+    position: absolute;
+    top: 24rem;
+}
+
+.box {
+    display: inline-block;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.6rem;
+    color: #ffffff;
+}
+
+.box-red {
+    background-color: var(--color-red);
+}
+
+.box-green {
+    background-color: rgb(0, 117, 0);
+}
+
+.price-red {
+    display: inline-block;
+    color: var(--color-red);
+}
+
+.price-decoration {
+    display: inline-block;
+    text-decoration: line-through;
 }
