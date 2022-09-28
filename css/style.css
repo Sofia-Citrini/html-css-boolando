@@ -82,6 +82,19 @@ h3, h5 {
     width: 100%;
 }
 
+.img-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.card:hover .img-hover {
+    display: inline-block;
+}
+
 .discount-container {
     position: absolute;
     top: 24rem;
